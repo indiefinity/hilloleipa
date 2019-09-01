@@ -1,6 +1,26 @@
-<html>
-<body>
-<p>Allun sivu johon allu ei oo IKINÄ koskenukkaa ja jota Ville hostaa turhaan.</p>
-<script src="index.js"></script>
-</body>
-</html>
+<html><head>
+
+<title>hilloVoikkari</title>
+
+</head><body style="background-color:darkgreen; color:dodgerblue">
+
+<input id="pepe">
+<h1>värivaihdos</h1>
+<button onclick="lol()">enter</button>
+<script>
+
+
+    setInterval(function() {
+      document.body.style.backgroundColor ="black"  
+      setTimeout(function(){
+        document.body.style.backgroundColor = "yellow"
+      },500)
+    },1000)
+
+ function lol() {
+     if (document.getElementById("pepe").value =="kakka") {
+         alert("kakkahätä!")
+     }
+ }
+
+</script></body></html>
