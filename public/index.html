@@ -9,6 +9,9 @@
 <button onclick="lol()">enter</button>
 <img id="kuva" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHFhUHkM-NvWpd5Cgi5Q8EwNU-1eDqM-3NewBEPEt2SHCC9B7k">
 <script>
+
+var ääni = new Audio("skampadimpa.mp3")
+
 var deggo = 0
 setInterval(function(){
     deggo++
@@ -22,6 +25,7 @@ setInterval(function(){
     },10000)
 
  function lol() {
+     ääni.play()
      if (document.getElementById("pepe").value =="bulibull") {
          alert("oispa rahkaa!")
      }
